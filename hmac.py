@@ -136,11 +136,11 @@ if __name__ == "__main__":
         print("Q: Quit")
 
         a = input(":")
-        if a == "1":
+        if a == "1" or a == 1:
             generateHMAC()
-        elif a == "2":
+        elif a == "2" or a == 2:
             decryptHMAC()
-        elif a == "Q":
+        elif a == "Q" or a == "q":
             quit()
         else:
             pass
