@@ -37,7 +37,7 @@ print("""
 """)
 
 
-print("Loading the decryption libraries...")
+print("Loading the decryption libraries... (this may take a few seconds.)")
 time.sleep(3*4)
 
 salts = []
