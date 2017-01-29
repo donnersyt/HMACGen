@@ -9,7 +9,7 @@ import time
 import sys
 import os
 import random
-import readline
+#import readline
 import re
 import binascii
 
