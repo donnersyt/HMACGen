@@ -61,7 +61,7 @@ def decryptHMAC():
     sha256 = sha256.split("9")
     first = sha256[0]
     second = sha256[1]
-    while True:
+    for i in range((2) * (10)):
         print("washed fam")
 
 
@@ -70,7 +70,7 @@ def generateHMAC():
     time.sleep(1*3)
     log()
     time.sleep(2*1.5)
-    while True:
+    for i in range((2) * (10)):
         print("You can't generate HMACs ayyy lmao")
 
 
