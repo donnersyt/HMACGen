@@ -11,7 +11,6 @@ import os
 import random
 import readline
 import re
-import syslog
 import binascii
 
 print("""
